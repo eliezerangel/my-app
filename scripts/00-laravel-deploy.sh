@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 echo "Running composer"
-#cp /etc/secrets/.env .env
+cp /etc/secrets/.env .env
 composer global require hirak/prestissimo
 composer install --no-dev --working-dir=/var/www/html
 
@@ -14,6 +14,6 @@ echo "Caching routes..."
 php artisan route:cache
 
 echo "Running migrations..."
-php artisan migrate --force
+php artisan migrate:fresh
 
 echo "done deploying"
