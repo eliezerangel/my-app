@@ -90,11 +90,11 @@ return [
             'database' => env('DB_DATABASE', 'laravel_u11g'),
             'username' => env('DB_USERNAME', 'root'),
             'password' => env('DB_PASSWORD', '9eXVVhzYHUHGyi9kgsoiRkdrdBMfdTw2'),
-            'charset' => env('DB_CHARSET', 'utf8'),
-            'prefix' => '',
-            'prefix_indexes' => true,
-            'search_path' => 'public',
-            'sslmode' => 'prefer',
+            // 'charset' => env('DB_CHARSET', 'utf8'),
+            // 'prefix' => '',
+            // 'prefix_indexes' => true,
+            // 'search_path' => 'public',
+            //'sslmode' => 'prefer',
         ],
 
         'sqlsrv' => [
