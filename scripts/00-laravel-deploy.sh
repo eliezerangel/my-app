@@ -8,7 +8,7 @@ echo "Clearing caches..."
 php artisan optimize:clear
 
 echo "Caching config..."
-php artisan config:cache
+#php artisan config:cache
 
 echo "Caching routes..."
 #php artisan route:cache
